@@ -9,16 +9,16 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12345678'))
-API_HASH = environ.get('API_HASH', '812529feb49f578FHB5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7091568:AAGpX2rVUnDHCYV-96GJVUV")
+API_ID = int(environ.get('API_ID', '29593343'))
+API_HASH = environ.get('API_HASH', '9e93c3305814f31695145026944fe9e1')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7342364459:AAFzrQJ1HTEkcizeMHoA6Irx_XT1HGW4Z6E")
 BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26') # without @ 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002466141591')) # admin your channel in stream 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002253649717')) # admin your channel in users log 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7473766119').split()] # 3567788, 678899, 5889467
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'nitishsehrawat1') # without @ 
 
 # pics information
 PICS = environ.get('PICS', 'https://envs.sh/b6H.jpg')
@@ -38,7 +38,7 @@ BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ �
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # fsub  information
 AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AwV.jpg')              
@@ -46,7 +46,7 @@ AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-100"))
 FSUB = environ.get("FSUB", True)
 
 # port information
-PORT = int(getenv('PORT', '2626'))
+PORT = int(getenv('PORT', '8080'))
 NO_PORT = bool(getenv('NO_PORT', False))
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
@@ -58,7 +58,7 @@ PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
 
 # Online Stream and Download
-BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'defeated-jacki-nitishjaat3363-b04127df.koyeb.app'))
 WORKERS = int(getenv('WORKERS', '4'))
 MULTI_CLIENT = False
 name = str(environ.get('name', 'avbotz'))
